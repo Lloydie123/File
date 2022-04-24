@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+ }
+
+ .navbar{
+  position: fixed;
+  width:100%;
+  padding: 15px 0;
+  font-family: 'Ubuntu', sans-serif;
+
+ }
+.navbar.sticky{
+  padding: 15px 0;
+  background: crimson;
+}
+
+
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.max-width{
+  max-width: 1300px;
+
+  padding: 0 80px;
+  margin: auto;
+  align-items: center;
+ }
+.navbar .logo a{
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span{
+  color: crimson;
+  transition: color 0.3s ease;
+
+}
+.navbar .menu li{
+
+  list-style: none;
+
+  display: inline-block;
+}
+
+
+ .navbar .menu li a{
+   display: block;
+   color: white;
+   font-size: 25px;
+   font-weight: 600px;
+   margin-left: 25px;
+   transition: color 0.3s ease;
+
+ }
+
+
+ .navbar .menu li a:hover{
+  color: crimson;
+
+
+}
+
+.navbar.sticky .menu li a:hover{
+  color: white;
+
+
+}
+
+
+
+ .home{
+   display: flex;
+
+   height:100vh;
+   background-size: cover;
+   background-attachment: fixed;
+   color: black;
+   min-height: 500px;
+   font-family: 'Ubuntu', sans-serif;
+   background: grey;
+ }
+ .home .max-width{
+  margin: auto 0 auto 40px;
+  display: flex;
+
+ }
+.home .max-width .row{
+  margin-right : 0;
+}
+
+.home .home-content .text-1{
+  font-size: 27px;
+}
+
+.home .home-content .text-2{
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .home-content .text-3{
+  font-size: 40px;
+  margin: 5px 0;
+}
+.home .home-content .text-3 span{
+  font-size: 40px;
+  margin: 5px 0;
+}
+.home .home-content a{
+  display: inline-block;
+  background: crimson;
+  color: white;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+
+
+
+}
+
+
+.one {
+
+  padding: 20px;
+  float: left;
+  width: 25%; 
+
+}
+
+.two {
+
+  padding: 20px;
+  float: left;
+  width: 25%;
+
+}
+
+.third {
+
+  padding: 20px;
+  float: left;
+  width: 25%
+}
+.fourth {
+
+  padding: 20px;
+  float: left;
+  width: 25%
+
+}
+.centered{
+  padding:100px;
+  justify-content: justify;
+
+
+
+
+}
+@media screen and (max-width: 800px) {
+  .one, .two, .third{
+    width: 100%; 
+
+
+}
+
+
+
+
+* {
+box-sizing: border-box;
+
+}
+
+.one {
+
+padding: 20px;
+float: left;
+width: 100%; 
+
+}
+
+.two {
+
+padding: 20px;
+float: left;
+width: 25%;
+
+}
+
+.third {
+
+padding: 20px;
+float: left;
+width: 25%
+}
+.fourth {
+
+padding: 20px;
+float: left;
+width: 25%
+
+}
+.centered{
+padding:100px;
+justify-content: justify;
+
+
+
+
+}
+h1 {
+text-align: center;
+}
+p.main {
+text-align: justify;
+}
+
+.card-btn{
+display: block;
+width: 100%;
+padding: 1.5rem;
+font-size: 2rem;
+text-align: center;
+color: #3363ff;
+background-color: #d8e0fd;
+border: none;
+border-radius: 0.4rem;
+transition: 0.2s;
+cursor: pointer;
+letter-spacing: 0.1rem;
+
+
+
+}
+.card-btn:hover,
+.card-btn:active {
+background-color: #c2cffc;
+}
+
+.card-btn:hover span,
+.card-btn:active span {
+margin-left: 1.5rem;
+}
+
+
+.image{
+width: 100%;
+
+
+
+}}
