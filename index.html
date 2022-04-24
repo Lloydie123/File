@@ -75,7 +75,7 @@
 	</section> 
 
 
-<h1> Projetcs </h1>
+<h1> Projects </h1>
 	<div class="one">
 		<img class="image"  src="images\1.jpg">
 	   <button class="card-btn"><a href= "">Project 1</a></button>
@@ -158,39 +158,300 @@ Home Section
  
     </section>
 <h1> Message Me</h1>
-    <form action="contacts.php" method="post">
-		<label for="fname">First Name</label>
-		<input type="hidden" name="new" value="1" />
-		<input type="text" id="fname" name="first_name" placeholder="Your name">
-	
-		<label for="lname">Last Name</label>
-		<input type="text" id="lname" name="last_name" placeholder="Your last name">
-	
-		  <label for="lname">Email</label>
-		<input type="text" id="lname" name="email" placeholder="Your email address">
-	
-		  <label for="lname">Contact Number</label>
-		<input type="text" id="lname" name="contact_number" placeholder="Your contact number">
-	
-	   
-	
-		<label for="subject">Subject</label>
-		<textarea id="subject" name="subject" placeholdesubjectr="Write something.." style="height:200px"></textarea>
-	
-		<input type="submit" value="Submit">
-	  </form>
-	
-	
-	
-	
-	</div>
-	
-	
-    <footer>
-          </footer>
+
+
+   <section class="contact" >
+     <div class="content">
+         <h2> Contact Us</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In provident nobis facilis. In possimus laudantium, facere voluptatem cum praesentium obcaecati beatae! Deleniti, facere nulla fuga possimus dolores earum magni molestiae?</p>
+        
+     </div>
+     <div class="container">
+        <div class="contactInfo">
+         <div class="box">
+             <div class="icon">
+             </div>
+             <div class="text">
+
+                 <h3> Address </h3>
+                 <p>Lorem ipsum dolfacilis. In possimus laudantium, face molestiae?</p>
+</div></div>
+
+
+         <div class="box">
+            <div class="icon">
+            </div>
+            <div class="text">
+                 <h3>Email</h3>
+                 <p>Address</p>
+                 </div></div>
+
+
+
+
+                 <div class="box">
+                    <div class="icon">
+        
+                    </div>
+                    <div class="text">
+                 <h3> Contact Number</h3>
+
+                 <p>09203614524</p>
+
+</div>
+
+</div></div>
+
+     <div class="contactForm" >
+         <form>
+             <h2> Send Message</h2>
+             <div class="inputBox">
+                
+
+                <input type="text" name="" required="required">
+                <span>Full Name</span>
+             </div>
+
+
+             <div class="inputBox">
+              
+
+                <input type="text" name="" required="required"> 
+                 <span>Email</span>
+               
+             </div>
+
+             <div class="inputBox">
+               
+
+                <textarea name="" required="required"> </textarea>
+                <span>Type your message</span>
+                <div class="inputBox">
+                <input type="submit" name="" value="Send">
+               
+             </div>
+
+
+
+
+
+         </form>
+
+
+
+     </div>
+     
+
+
+    </body>
+
+
+
+
+ </section>
 
     <script src="script.js"></script>
 </body>
 
 </body>
-</html>
+
+//<!DOCTYPE html>
+
+
+<style> 
+*{
+
+
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+color: white;
+}
+
+.container{
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+padding: 50px 100px;
+
+
+
+
+}
+.contact{
+
+position: relative;
+min-height: 100vh;
+padding: 50px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: black;
+}
+
+.contact .content{
+
+max-width: 800px;
+text-align: center;
+}
+.contact .content h2{
+
+font-size: 36px;
+font-weight: 500;
+color: white;
+}
+
+.contact .content p{
+
+
+font-weight: 300;
+color: white;
+}
+
+
+.container .contactInfo{
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+
+}
+
+
+.container .contactInfo .box{
+ position: relative;
+ padding: 20px 0;
+ display: flex;
+
+
+}
+
+
+.container .contactInfo .box .icon{
+min-width: 60px;
+height: 60px;
+background: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 22px;;
+
+
+
+}
+
+
+.container .contactInfo .box .text{
+display: flex;
+margin-left: 20px;
+font-size: 16px;
+color: white;
+flex-direction: column;
+font-weight: 300;
+
+
+
+
+}
+
+
+
+.container .contactInfo .box .text h3 {
+font-weight: 300;
+color: white;
+
+
+}
+
+
+.container{
+
+
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 30px;
+}
+
+.contactForm{
+width: 40%;
+padding: 40px;
+background: white;
+
+
+}
+
+.contactForm h2{
+font-size: 40px;
+color: black;
+font-weight: 500;
+}
+
+.contactForm .inputBox{
+
+position: relative;
+width: 100%;
+margin-top: 10px;
+
+
+
+
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+
+
+width: 100%;
+margin: 10px 0;
+padding: 5px 0;
+font-size: 16px;
+border: none; 
+border-bottom: 2px solid black;
+color: black;
+outline: none;
+resize: none ;
+
+}
+
+
+.contactForm .inputBox span{
+
+
+position: absolute;
+left: 0;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+pointer-events: none;
+transition: 0.5s;
+color: #666;
+}
+
+
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+color: #e91e63;
+font-size: 12px;
+transform: translateY(-20px);
+
+
+}
+
+
+
+
+
+
+</style>
+
+
